@@ -2,7 +2,8 @@ import type { Problem, CreateProblemRequest, UpdateProblemRequest } from '../typ
 
 const STORAGE_KEY = 'code_interview_problems';
 
-const mockProblems: Problem[] = [
+// 导出供回归校验读取（页面运行时仍使用下方 loadFromStorage，不受影响）
+export const mockProblems: Problem[] = [
   {
     id: 'mock-1',
     title: '两数之和',

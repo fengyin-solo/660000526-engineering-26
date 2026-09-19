@@ -6,3 +6,6 @@ __pycache__/
 *.pyc
 *.class
 .venv/
+
+# 展示回归临时产物（报告/失败清单/缓存），可用 npm run regression:clean 清理
+frontend/regression/.artifacts/
